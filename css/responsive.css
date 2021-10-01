@@ -1,0 +1,90 @@
+@media screen and (max-width: 1000px) {
+
+  #secsec2 {
+    flex-direction: column;
+  }
+  .thmain {
+    flex-direction: column;
+  }
+  #form {
+    flex-direction: column;
+  }
+  #condes {
+    width: 475px;
+  }
+  #contact {
+    height: 1400px;
+  }
+  .about p,
+  #secsec1 p,
+  .firstsec p {
+    width: auto;
+    padding: 20px;
+  }
+
+
+
+  #secsec1 h3,
+  .firstsec h3 {
+    width: 400px;
+  }
+  .secondsec .secsec {
+    width: auto;
+  }
+
+
+  .firstsec::before {
+    height: 573px;
+    top: 183px;
+  }
+
+  .navbar{
+      flex-direction: column;
+  }
+  #logo {
+    margin: 10px;
+  }
+  #search {
+    margin: 20px;
+   
+    padding: 6px;
+   
+  }
+  .navbar{
+      position: static;
+  }
+}
+
+@media screen and (max-width: 500px){
+    .firstsec{
+        height: 500px;
+    }
+    .thsecsec {
+        width: auto;
+        height: 450px;
+        margin: 15px 15px;
+    }
+
+    
+    .conformitem {
+        width: auto;
+    }
+    .contactinput {
+        width: 80%;
+    }
+    #condes {
+        width: auto;
+    }
+    #secsec1 h3, .firstsec h3 {
+        width: auto;
+        padding: 15px;
+    }
+    .firstsec{
+        height: 400px;
+    }
+    .firstsec::before {
+        height: 698px;
+        top: 190px;
+    }
+
+}
